@@ -6,8 +6,9 @@
 
 body {
   width: 100vw;
-  height: 100vh;
   background: linear-gradient(to bottom, #0098d9, #061540);
+  background-color: #061540;
+  background-repeat: no-repeat;
 }
 
 header {
@@ -15,18 +16,25 @@ header {
   top: 0;
 }
 
-.header-container, .max-min {
+footer {
+  margin-top: 10vh;
+  bottom: 0;
+}
+
+.row-center {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.future-container{
-  background-color: rgba(0, 0, 0, 0.2);
-  margin: 10px;
-  border-radius: 10px;
-}
-
-footer {
-  margin-top: 20vh;
-  bottom: 0;
+.col-s12-m2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
+  text-align: center;
+  background-color: rgba(266, 266, 266, 0.1);
+  border-radius: 25px;
+  margin-bottom: 20px;
 }
