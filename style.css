@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, #0098d9, #061540);
+}
+
+header {
+  position: relative;
+  top: 0;
+}
+
+.header-container, .max-min {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.future-container{
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 20vh;
+  bottom: 0;
+}
