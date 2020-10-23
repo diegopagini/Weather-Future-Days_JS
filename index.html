@@ -17,9 +17,15 @@
     <header class="section">
       <div class="row">
         <div class="col s12 m4">
-          <h2>Nombre de la Ciudad</h2>
+          <div id='cp'>
+            <h2>Nombre de la Ciudad</h2>
+          </div>
+          <div>
+            <span id="max">Maxima</span>
+            <span id="min">Minima</span>
+          </div>
         </div>
-        <div class="col s12 m4 right">
+        <div class="col s12 m4 right" id='temp'>
           <h2>Temperatura C°</h2>
         </div>
       </div>
@@ -28,10 +34,9 @@
     <main class="section">
       <div class="row valign-wrapper container">
         <div class="col s12 left">
-          <h3>Fecha</h3>
-          <h4>Humedad</h4>
-          <h4>Viendo del</h4>
-          <h4>HectoPascales</h4>
+          <h4 id='rh'>Humedad</h4>
+          <h4 id='clouds'>Viento del</h4>
+          <h4 id='rain'>lluvia</h4>
         </div>
       </div>
     </main>
@@ -39,29 +44,24 @@
     <footer>
       <div class="row-center">
         <div class="col-s12-m2 z-depth-2">
-          <img src="" alt="weatther-icon" />
-          <h2>lunes</h2>
-          <h3>clima</h3>
+          <h2 id=dateFirst>lunes</h2>
+          <h3 id='tempFirst'>clima</h3>
         </div>
         <div class="col-s12-m2 z-depth-2">
-          <img src="" alt="weatther-icon" />
-          <h2>lunes</h2>
-          <h3>clima</h3>
+          <h2 id='dateSecond'>lunes</h2>
+          <h3 id='tempSecond'>clima</h3>
         </div>
         <div class="col-s12-m2 z-depth-2">
-          <img src="" alt="weatther-icon" />
-          <h2>lunes</h2>
-          <h3>clima</h3>
+          <h2 id='dateThird'>lunes</h2>
+          <h3 id='tempThird'>clima</h3>
         </div>
         <div class="col-s12-m2 z-depth-2">
-          <img src="" alt="weatther-icon" />
-          <h2>lunes</h2>
-          <h3>clima</h3>
+          <h2 id='dateFourth'>lunes</h2>
+          <h3 id='tempFourth'>clima</h3>
         </div>
         <div class="col-s12-m2 z-depth-2">
-          <img src="" alt="weatther-icon" />
-          <h2>lunes</h2>
-          <h3>clima</h3>
+          <h2 id='dateFifth'>lunes</h2>
+          <h3 id='tempFifth'>clima</h3>
         </div>
       </div>
     </footer>
